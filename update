@@ -1,0 +1,13 @@
+#!/bin/bash
+
+# Update package lists
+echo "Updating $HOSTNAME"
+sudo apt update && apt list --upgradable
+
+# Upgrade upgradable packages
+echo "Upgrading $HOSTNAME"
+sudo apt upgrade
+
+# Remove unnecessary packages
+echo "Cleaning Packages"
+sudo apt autoremove 
