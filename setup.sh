@@ -18,7 +18,7 @@ install_script() {
     sudo cp $script_name /bin/update
 
     # Make the setup script executable
-    sudo chmod +x /bin/upgrade
+    sudo chmod +x /bin/update
 
     # Clean up by removing the cloned repository directory
     cd ..
