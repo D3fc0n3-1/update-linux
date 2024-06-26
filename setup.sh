@@ -15,7 +15,7 @@ install_script() {
     cd update-linux
 
     # Copy the setup script to /bin directory
-    sudo cp $script_name /bin/update
+    sudo cp update /bin/update
 
     # Make the setup script executable
     sudo chmod +x /bin/update
