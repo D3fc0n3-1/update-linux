@@ -1,18 +1,18 @@
 #!/bin/bash
-
+#
 # URL of your GitHub repository containing the setup.sh script
-repo_url="https://github.com/KennethOldenburg/update-linux"
+#repo_url="https://github.com/KennethOldenburg/update-linux"
 
 # Name of the setup script
-script_name="upgrade"
+#script_name="upgrade"
 
 # Install the setup script
-install_script() {
+#install_script() {
     # Clone the repository
-    git clone $repo_url
+#    git clone $repo_url
 
     # Change into the cloned repository directory
-    cd update-linux
+#    cd update-linux
 
     # Copy the setup script to /bin directory
     sudo cp update /bin/update
